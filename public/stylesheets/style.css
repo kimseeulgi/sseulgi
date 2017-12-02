@@ -60,9 +60,12 @@ h1.homepage-header {
 
 .row.marketing {
   color: #666a73;
+  color: #ADB0B6;
   position: relative;
   border-top: #666A73 solid 6px;
-  background: #282C35; }
+  background: #282C35;
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 div.row.marketing.a {
   color: #D2D6DF; }
