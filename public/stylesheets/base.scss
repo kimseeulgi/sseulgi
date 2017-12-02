@@ -38,11 +38,11 @@ a:hover {
 }
 
 .main-title {
-  font-family: 'Raleway';
+  font-family: 'briteicons';
   font-size: 2.5rem;
   margin: 1em 0 0.5em 0;
   border-bottom: 1px solid #eee;
-  color: #011a72;
+  //color: #f6682F;
 }
 
 .header > .navbar {
@@ -80,10 +80,13 @@ h1.homepage-header {
    position: relative;
    border-top: #666A73 solid 6px;
    background: #282C35;
+
+   
 }
 div.row.marketing.a {
    color: #D2D6DF;
 }
+
 div.carousel-inner{
   position: relative;
   margin-top: 2em;
@@ -120,3 +123,58 @@ border-top-right-radius: 4px;
   margin: 3px;
   border-radius: calc(.25rem - 1px);
 }
+
+// a.navbar-brand {
+
+//   color: #f6682F;
+//   font-size: 39px;
+//   line-height: 1.4;
+//   font-family: briteicons,"Benton Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+//   text-decoration: inherit;
+//   display: inline;
+//   vertical-align: baseline;
+// }
+.nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
+  color: #f86820;
+
+}
+p.footer-copyright.text-body-medium{
+font-size: 15px;
+line-height: 22px;
+font-weight: 400;
+margin: 10;
+padding: 0;
+text-align: center;
+color: #ADB0B6;
+ }
+ 
+.a.btn.btn-sm.btn-primary {
+  color: #0278b8;
+  background-color: transparent;
+  border: 2px solid #0278b8;
+  padding: 9px 18px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  line-height: 22px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 3px;
+
+ }
+
+ blockquote.blockquote.text-center{
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: .5px;
+  font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+  color: #666a73;
+
+ }
