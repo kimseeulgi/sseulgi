@@ -1,0 +1,39 @@
+.header.clearfix
+  nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top
+    .container
+      a.navbar-brand(href="/") Evenbrite
+      button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarsExampleDefault", aria-controls="navbarsExampleDefault", aria-expanded="false", aria-label="Toggle navigation")
+        span.navbar-toggler-icon
+
+      #navbarsExampleDefault.collapse.navbar-collapse
+        ul.navbar-nav.ml-auto
+          li.nav-item
+            a.nav-link(href='#') BROWSE EVENTS
+           
+          li.nav-item.dropdown
+           a.nav-link.dropdown-toggle(data-toggle='dropdown', href='#', role='button') ORGANIZE
+          .dropdown-menu
+                  a.dropdown-item(href='#') Overview               
+                  a.dropdown-item(href='#') Pricing               
+                  a.dropdown-item(href='#') Blog                      
+                  a.dropdown-item(href='#') Resoreces
+          li.nav-item.dropdown
+                a.nav-link.dropdown-toggle(data-toggle='dropdown', href='#', role='button') HELP                         
+                .dropdown-menu
+                  a.dropdown-item(href='#') Where are my tickets?                
+                  a.dropdown-item(href='#') How to contact the event organizer                           
+                  .dropdown-divider                           
+                  a.dropdown-item(href='#') Help Center
+
+          if (!currentUser) 
+            li.nav-item
+              a.nav-link(href='/signin') SIGN IN
+            li.nav-item
+              a.nav-link(href='/users/new') CREATE EVENT
+          else
+            li.nav-item
+              a.nav-link(href=`/users/${currentUser._id}`) My Profile
+            li.nav-item
+              a.nav-link(href='/signout') Signout
+        
+          
