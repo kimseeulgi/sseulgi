@@ -47,7 +47,7 @@ a:hover {
 }
 
 .header > .navbar {
-  background-color: #011a72!important;
+  background-color: #FFFFFF!important;
 }
 
 .search-input-group{
@@ -106,6 +106,27 @@ div.carousel-inner{
 
 }
 
+a.navbar-brand{
+  color: #f6682F;
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: "briteicons","Benton Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: inherit;
+  display: inline;
+  vertical-align: baseline;
+}
+.nav-item {
+  text-transform: uppercase;
+  border-left: 1px solid #EFF2F5;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  border-radius: 0px;
+  color: #45494E;}
+
  #homepage-search-card.card{
  //background-color: transparent (0,0, );
 
@@ -134,22 +155,12 @@ ul.navbar-nav.ml-auto{
     
      line-height: 1.4;
 }
-// a.navbar-brand {
 
-//   color: #f6682F;
-//   font-size: 39px;
-//   line-height: 1.4;
-//   font-family: briteicons,"Benton Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-//   font-weight: 400;
-//   font-style: normal;
-//   text-decoration: inherit;
-//   display: inline;
-//   vertical-align: baseline;
-// }
 .nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
   color: #f86820;
 
 }
+
 p.footer-copyright.text-body-medium{
 font-size: 15px;
 line-height: 22px;
@@ -197,9 +208,7 @@ color: #ADB0B6;
 
  #carouselExampleSlidesOnly.carousel.slide{
 
-  //position: absolute;
- //margin-top: 2em;
-  //margin-bottom: 2em;
  width:100%;
  
  }
+ 

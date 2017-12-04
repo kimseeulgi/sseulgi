@@ -35,7 +35,7 @@ a:hover {
   padding: 15px; }
 
 .header > .navbar {
-  background-color: #011a72 !important; }
+  background-color: #FFFFFF !important; }
 
 .search-input-group {
   margin: 1em 0;
@@ -79,6 +79,27 @@ div.carousel-inner {
   height: 100%;
   width: 100%;
   background-size: cover; }
+
+a.navbar-brand {
+  color: #f6682F;
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: "briteicons","Benton Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: inherit;
+  display: inline;
+  vertical-align: baseline; }
+
+.nav-item {
+  text-transform: uppercase;
+  border-left: 1px solid #EFF2F5;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  border-radius: 0px;
+  color: #45494E; }
 
 button.btn.btn-outline-warning {
   font-weight: 600;
