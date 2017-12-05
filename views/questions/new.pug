@@ -2,9 +2,18 @@ extends ../layout
 
 block content
   .container
-    h1.main-title New Question
+    h1.main-title 1. Event Details
     form(action="/questions", method="POST")
       include _form
+
+      h1.main-title 2. Create Tickets
+    form(action="/questions", method="POST")
+      
+      h1.main-title 3. Additional Settings
+    form(action="/questions", method="POST")
+    
+
+   
       button.btn.btn-outline-primary(type="submit") Post Your Question
 
     

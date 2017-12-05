@@ -1,9 +1,32 @@
+
+
 .form-group
-  label(for="title") Title
-  input.form-control(type="text", name="title", placeholder="What's your question?", value=question.title)
+  label(for="title") EVENT TITLE
+  input.form-control(type="text", name="title", placeholder="Givi it a short distinct name?", value=question.title)
 .form-group
-  label(for="question") Question
+  label(for="title") LOCATION
+  input.form-control(type="text", name="title", placeholder="Searcn for a venue or address.", value=question.title)
+
+form.form-inline
+      .form-group
+        label(for="title") STARTS
+        input#exampleInputName2.form-control(type='text', placeholder='01/12/2018', value=question.title)
+      .form-group
+        label(for="title") ENDS
+        input#exampleInputEmail2.form-control(type='email', placeholder='01/12/2018', value=question.title)
+.form-group
+  label(for="title") EVENT IMAGE
+  img.img-thumbnail(src='...', alt='...')
+.form-group
+  label(for="question") EVENT DESCRIPTION 
   textarea.form-control(name="content", rows="5")= question.content
+.checkbox
+      label
+        input(type='checkbox', value='')
+        |    Link to Facebook and Twitter
+
+
+
 .form-group
   label(for="tags") Tags
   input.form-control(type="text", name="tags", placeholder="tags separated by spaces", value=question.tags ? question.tags.join(" ") : "")

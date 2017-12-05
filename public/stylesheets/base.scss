@@ -87,6 +87,16 @@ h1.homepage-header {
 
    
 }
+.final_1{
+  color: #666a73;
+  color: #ADB0B6;
+  position: relative;
+  border-top: #666A73 solid 6px;
+  background: #282C35;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
 div.row.marketing.a {
    color: #D2D6DF;
 }
@@ -127,10 +137,7 @@ a.navbar-brand{
   border-radius: 0px;
   color: #45494E;}
 
- #homepage-search-card.card{
- //background-color: transparent (0,0, );
-
-}
+ 
 button.btn.btn-outline-warning{ 
   
 font-weight: 600;
@@ -171,7 +178,7 @@ text-align: center;
 color: #ADB0B6;
  }
  
-.a.btn.btn-sm.btn-primary {
+a.btn.btn-sm.btn-primary {
   color: #0278b8;
   background-color: transparent;
   border: 2px solid #0278b8;
@@ -185,6 +192,10 @@ color: #ADB0B6;
   font-size: 14px;
   text-transform: uppercase;
   border-radius: 3px;
+
+ }
+ .seemore{
+  text-align: center;
 
  }
 
@@ -204,7 +215,11 @@ color: #ADB0B6;
  .card {
   padding-left: 15px;
   padding-right: 15px;
+  
+    
+  
  }
+ 
 
  #carouselExampleSlidesOnly.carousel.slide{
 
@@ -212,3 +227,7 @@ color: #ADB0B6;
  
  }
  
+ form.form-inline{
+
+  width: 50%;
+ }

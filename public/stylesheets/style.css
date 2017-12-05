@@ -66,6 +66,15 @@ h1.homepage-header {
   padding-top: 25px;
   padding-bottom: 25px; }
 
+.final_1 {
+  color: #666a73;
+  color: #ADB0B6;
+  position: relative;
+  border-top: #666A73 solid 6px;
+  background: #282C35;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
 div.row.marketing.a {
   color: #D2D6DF; }
 
@@ -132,7 +141,7 @@ p.footer-copyright.text-body-medium {
   text-align: center;
   color: #ADB0B6; }
 
-.a.btn.btn-sm.btn-primary {
+a.btn.btn-sm.btn-primary {
   color: #0278b8;
   background-color: transparent;
   border: 2px solid #0278b8;
@@ -146,6 +155,9 @@ p.footer-copyright.text-body-medium {
   font-size: 14px;
   text-transform: uppercase;
   border-radius: 3px; }
+
+.seemore {
+  text-align: center; }
 
 blockquote.blockquote.text-center {
   padding-top: 15px;
@@ -162,6 +174,9 @@ blockquote.blockquote.text-center {
 
 #carouselExampleSlidesOnly.carousel.slide {
   width: 100%; }
+
+form.form-inline {
+  width: 50%; }
 
 .form-signin {
   width: 300px;
