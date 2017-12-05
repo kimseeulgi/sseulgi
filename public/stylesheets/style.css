@@ -91,21 +91,22 @@ div.carousel-inner {
 
 a.navbar-brand {
   color: #f6682F;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.4;
-  font-family: "briteicons","Benton Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  font: 'Montserrat', sans-serif;
   font-weight: bold;
   font-style: normal;
   text-decoration: inherit;
   display: inline;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  margin-left: -1.5em; }
 
 .nav-item {
   text-transform: uppercase;
   border-left: 1px solid #EFF2F5;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
   letter-spacing: 0.5px;
   border-radius: 0px;
   color: #45494E; }
@@ -156,8 +157,21 @@ a.btn.btn-sm.btn-primary {
   text-transform: uppercase;
   border-radius: 3px; }
 
-.seemore {
-  text-align: center; }
+.btn.btn-primary {
+  text-align: center;
+  color: #0278b8;
+  background-color: transparent;
+  border: 2px solid #0278b8;
+  padding: 9px 18px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  line-height: 22px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 3px; }
 
 blockquote.blockquote.text-center {
   padding-top: 15px;
@@ -177,6 +191,42 @@ blockquote.blockquote.text-center {
 
 form.form-inline {
   width: 50%; }
+
+@media screen and (max-width: 450px) {
+  h1 {
+    color: pink; }
+  .carousel-inner {
+    height: 1000%;
+    width: 100%; }
+  #btn-group {
+    margin-left: 0em;
+    font-size: 1px;
+    height: 50px;
+    width: 1px; }
+  .navbar h3 {
+    font-size: 1em;
+    margin-left: 3em; }
+  .message {
+    font-size: 1em; }
+  #img1 {
+    height: 50%;
+    width: 100%; } }
+
+@media only screen and (min-device-width: 767px) {
+  h1 {
+    color: black; }
+  .carousel-inner {
+    height: 1000%; }
+  #btn-group {
+    margin-left: 0em; } }
+
+@media only screen and (min-device-width: 1284px) {
+  h1 {
+    color: black; }
+  .carousel-inner {
+    height: 1000%; }
+  #btn-group {
+    margin-left: 0em; } }
 
 .form-signin {
   width: 300px;
