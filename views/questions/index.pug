@@ -14,7 +14,7 @@ block content
         .small Total #{questions.total} event(s)
 
     if questions.total <= 0 
-      .alert.alert-info No questions available yet
+      .alert.alert-info No Events available yet
     else
       .questions
         each question in questions.docs
@@ -25,4 +25,4 @@ block content
       +paginate(questions, '/questions', query)
 
     hr
-    a.btn.btn-primary(href='/questions/new') Ask Event
+    a.btn.btn-primary(href='/questions/new') Create Event
