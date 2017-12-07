@@ -2,15 +2,17 @@ extends ../layout
 
 block content
   .container
-    h1.main-title 1. Event Details
+    h1.main-title_event 1. Event Details
     form(action="/questions", method="POST")
       include _form
 
-      h1.main-title 2. Create Tickets
+      h1.main-title_event 2. Create Tickets
     form(action="/questions", method="POST")
+      include _form2
       
-      h1.main-title 3. Additional Settings
+      h1.main-title_event 3. Additional Settings
     form(action="/questions", method="POST")
+      include _form3
     
 
    

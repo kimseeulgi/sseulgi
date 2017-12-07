@@ -45,6 +45,14 @@ a:hover {
   border-bottom: 1px solid #eee;
   padding: 15px;
 }
+.main-title_event{
+
+  font-size: 2rem;
+  margin: 1em 1em 0.5em 0;
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+}
+
 
 .header > .navbar {
   background-color: #FFFFFF!important;
@@ -88,6 +96,7 @@ h1.homepage-header {
 
    
 }
+
 .card2{
   color: #666a73;
   color: #ADB0B6;
@@ -96,6 +105,9 @@ h1.homepage-header {
   background: #282C35;
   padding-top: 25px;
   padding-bottom: 25px;
+  .h4{
+    padding: 2em;
+  }
   padding: 2.5em;
 
 }

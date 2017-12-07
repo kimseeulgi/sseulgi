@@ -14,9 +14,17 @@ form.form-inline
       .form-group
         label(for="title") ENDS
         input#exampleInputEmail2.form-control(type='email', placeholder='01/12/2018', value=question.title)
+
 .form-group
-  label(for="title") EVENT IMAGE
-  img.img-thumbnail(src='...', alt='...')
+      label.col-sm-2.control-label(for='inputContent') EVENT IMAGE
+      .col-sm-10
+        .input-group
+          label.input-group-btn
+            span.btn.btn-default.btn-file
+              | Browse 
+              input(type='file', name='attach_file', data-display-target='attachFile')
+          input#attachFile.form-control(type='text', readonly='', placeholder='지원되는 파일 양식: jpg, png, gif, pdf, doc, docx, xls, xlsx, ppt, pptx')
+
 .form-group
   label(for="question") EVENT DESCRIPTION 
   textarea.form-control(name="content", rows="5")= question.content
