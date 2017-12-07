@@ -1,22 +1,21 @@
-
-
 .form-group
   label(for="title") EVENT TITLE
-  input.form-control(type="text", name="title", placeholder="Givi it a short distinct name?", value=question.title)
-.form-group
-  label(for="title") LOCATION
-  input.form-control(type="text", name="title", placeholder="Searcn for a venue or address.", value=question.title)
-
-form.form-inline
-      .form-group
-        label(for="title") STARTS
-        input#exampleInputName2.form-control(type='text', placeholder='01/12/2018', value=question.title)
-      .form-group
-        label(for="title") ENDS
-        input#exampleInputEmail2.form-control(type='email', placeholder='01/12/2018', value=question.title)
+  input.form-control(type="text", name="title", placeholder="Give it a short distinct name", value=question.title)
 
 .form-group
-      label.col-sm-2.control-label(for='inputContent') EVENT IMAGE
+  label(for="question") LOCATION
+  input.form-control(type="text", name="content", placeholder="Search for a venue or address", value=question.content)
+
+.form-group
+  label(for="date") STARTS
+  input.form-control(type="text", name="date", placeholder="01/15/2018", value=question.date)
+
+.form-group
+  label(for="date") ENDS
+  input.form-control(type="text", name="date", placeholder="01/15/2018", value=question.date)
+
+.form-group
+      label.col-sm-2.control-label(for='inputContent') IMAGE
       .col-sm-10
         .input-group
           label.input-group-btn
@@ -26,15 +25,14 @@ form.form-inline
           input#attachFile.form-control(type='text', readonly='', placeholder='지원되는 파일 양식: jpg, png, gif, pdf, doc, docx, xls, xlsx, ppt, pptx')
 
 .form-group
-  label(for="question") EVENT DESCRIPTION 
+  label(for="question") EVENT DESCRIPTION
   textarea.form-control(name="content", rows="5")= question.content
+
 .checkbox
       label
         input(type='checkbox', value='')
         |    Link to Facebook and Twitter
 
-
-
 .form-group
-  label(for="tags") Tags
+  label(for="tags") TAGS
   input.form-control(type="text", name="tags", placeholder="tags separated by spaces", value=question.tags ? question.tags.join(" ") : "")
