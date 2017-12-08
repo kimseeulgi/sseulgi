@@ -96,7 +96,27 @@ h1.homepage-header {
 
    
 }
+.cardimg {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+}
+.card1{
+  color: #666a73;
+  color: #ADB0B6;
+  position: relative;
+  border-top: #666A73 solid 1px;
+  background: #282C35;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  .h4{
+    padding: 2em;
+  }
+  padding: 2.5em;
 
+}
 .card2{
   color: #666a73;
   color: #ADB0B6;
@@ -111,6 +131,7 @@ h1.homepage-header {
   padding: 2.5em;
 
 }
+
 .card3 {
   color: #666a73;
   color: #ADB0B6;
@@ -119,6 +140,13 @@ h1.homepage-header {
   background: #282C35;
   padding-top: 25px;
   padding-bottom: 25px;
+  .footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    
+    color: #aaa;
+    border-top: .05rem solid #e5e5e5;
+  }
 
 }
 div.row.marketing.a {
@@ -220,7 +248,7 @@ a.btn.btn-sm.btn-primary {
   font-size: 14px;
   text-transform: uppercase;
   border-radius: 3px;
-
+  
  }
 
 //  .btn.btn-primary{
@@ -253,8 +281,4 @@ a.btn.btn-sm.btn-primary {
  }
 
 
- .card {
-  padding-left: 15px;
-  padding-right: 15px;
-  
- }
+

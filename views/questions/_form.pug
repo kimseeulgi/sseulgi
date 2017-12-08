@@ -16,15 +16,14 @@
   label(for="date") ENDS
   input.form-control(type="text", name="date", placeholder="01/15/2018", value=question.date)
 
+
 .form-group
-      label.col-sm-2.control-label(for='inputContent') IMAGE
-      .col-sm-10
-        .input-group
-          label.input-group-btn
-            span.btn.btn-default.btn-file
-              | Browse 
-              input(type='file', name='attach_file', data-display-target='attachFile')
-          input#attachFile.form-control(type='text', readonly='', placeholder='지원되는 파일 양식: jpg, png, gif, pdf, doc, docx, xls, xlsx, ppt, pptx')
+      label(for='exampleInputFile') IMAGE
+      | 
+.form-group    
+      input#exampleInputFile(type='file')
+      |     
+            
 
 .form-group
   label(for="question") EVENT DESCRIPTION
@@ -42,11 +41,11 @@ hr
 .form-group
   .row
       .col-sm-3
-        a.btn.btn-sm.btn-primary(href='#', role='button') FREE TICKET 
+        a.btn.btn-sm.btn-primary(href='https://www.eventbrite.com/create', role='button') FREE TICKET 
       .col-sm-3
-        a.btn.btn-sm.btn-primary(href='#', role='button') PAID TICKET
+        a.btn.btn-sm.btn-primary(href='https://www.eventbrite.com/create', role='button') PAID TICKET
       .col-sm-3
-        a.btn.btn-sm.btn-primary(href='#', role='button') DONATION
+        a.btn.btn-sm.btn-primary(href='https://www.eventbrite.com/create', role='button') DONATION
 hr
 .form-group
   h4 3. ADDITIONAL SETTINGS

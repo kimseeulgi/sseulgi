@@ -72,6 +72,25 @@ h1.homepage-header {
   padding-bottom: 25px;
   padding: 2em; }
 
+.cardimg {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em; }
+
+.card1 {
+  color: #666a73;
+  color: #ADB0B6;
+  position: relative;
+  border-top: #666A73 solid 1px;
+  background: #282C35;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding: 2.5em; }
+  .card1 .h4 {
+    padding: 2em; }
+
 .card2 {
   color: #666a73;
   color: #ADB0B6;
@@ -92,6 +111,11 @@ h1.homepage-header {
   background: #282C35;
   padding-top: 25px;
   padding-bottom: 25px; }
+  .card3 .footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #aaa;
+    border-top: .05rem solid #e5e5e5; }
 
 div.row.marketing.a {
   color: #D2D6DF; }
@@ -183,10 +207,6 @@ blockquote.blockquote.text-center {
   letter-spacing: .5px;
   font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
   color: #666a73; }
-
-.card {
-  padding-left: 15px;
-  padding-right: 15px; }
 
 .form-signin {
   width: 300px;

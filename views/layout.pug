@@ -18,10 +18,7 @@ html
       include ./includes/topnav
     block hero-unit
     block seemore
-    block final_1
-    block finalhr_2
-    block final_2
-    block finalbutton
+    
     if flashMessages
       each texts, type in flashMessages
         .container
@@ -31,7 +28,8 @@ html
             button.close(type='button', data-dismiss='alert', aria-label='close')
               span(aria-hidden='true') &times;
     block content
-
+    block cardimg
+  
     block footer
       include ./includes/footer
 
