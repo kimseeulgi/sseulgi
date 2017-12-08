@@ -1,4 +1,6 @@
 .form-group
+ h3 1. EVENT DETAILS
+.form-group
   label(for="title") EVENT TITLE
   input.form-control(type="text", name="title", placeholder="Give it a short distinct name", value=question.title)
 
@@ -30,9 +32,99 @@
 
 .checkbox
       label
-        input(type='checkbox', value='')
+        input(type='checkbox', value='', href='/auth/facebook')
         |    Link to Facebook and Twitter
 
+
+hr
+.form-group
+    h4 2. CREATE TICKETS
+.form-group
+  .row
+      .col-sm-3
+        a.btn.btn-sm.btn-primary(href='#', role='button') FREE TICKET 
+      .col-sm-3
+        a.btn.btn-sm.btn-primary(href='#', role='button') PAID TICKET
+      .col-sm-3
+        a.btn.btn-sm.btn-primary(href='#', role='button') DONATION
+hr
+.form-group
+  h4 3. ADDITIONAL SETTINGS
+.form-group
+  label(for="titie") LISTING PRIVACY
+.form-group
+  label.radio
+      input#inlineRadio1(type='radio', name='inlineRadioOptions', value='option1' checked)
+      |  Public page: Discoverable by anyone on Evenbrite, our distribution partners, and search engines.
+.form-group
+  label.radio
+      input#inlineRadio2(type='radio', name='inlineRadioOptions', value='option2')
+      |  Private page: Accessible only by people you specify.
+.form-group
+  label(for="titie") EVENT TYPE
+  select.form-control(type="text", name="title", placeholder="Select the type of event")
+      option(value='', selected='selected') Select the type of event
+      option(value=question.content) Appearance or Signing
+      option(value=question.content) Attraction
+      option(value=question.content) Camp, Trip, or Retreat
+      option(value=question.content) Class, Training, or Workshop
+      option(value=question.content) Concert or Performance
+      option(value=question.content) Conference
+      option(value=question.content) Convention
+      option(value=question.content) Dinner or Gala
+      option(value=question.content) Festival or Fair
+      option(value=question.content) Game or Competition
+      option(value=question.content) Meeting or Networking Event
+      option(value=question.content) Other
+      option(value=question.content) Party or Social Gathering
+      option(value=question.content) Race or Endurance Event
+      option(value=question.content) Rally
+      option(value=question.content) Screening
+      option(value=question.content) Seminar or Talk
+      option(value=question.content) Tour
+      option(value=question.content) Tournament
+      option(value=question.content) Tradeshow, Consumer Show, or Expo
+
+.form-group
+  label(for="titie") EVENT TOPIC
+  select.form-control(type="text", name="title", placeholder="Select a topic")
+      option(value='', selected='selected') Select a topic
+        option(value=question.content) Auto, Boat &amp; Air
+        option(value=question.content) Business &amp; Professional
+        option(value=question.content) Charity &amp; Causes
+        option(value=question.content) Community &amp; Culture
+        option(value=question.content) Family &amp; Education
+        option(value=question.content) Fashion &amp; Beauty
+        option(value=question.content) Film, Media &amp; Entertainment
+        option(value=question.content) Food &amp; Drink
+        option(value=question.content) Government &amp; Politics
+        option(value=question.content) Health &amp; Wellness
+        option(value=question.content) Hobbies &amp; Special Interest
+        option(value=question.content) Home &amp; Lifestyle
+        option(value=question.content) Music
+        option(value=question.content) Other
+        option(value=question.content) Performing &amp; Visual Arts
+        option(value=question.content) Religion &amp; Spirituality
+        option(value=question.content) School Activities
+        option(value=question.content) Science &amp; Technology
+        option(value=question.content) Seasonal &amp; Holiday
+        option(value=question.content) Sports &amp; Fitness
+        option(value=question.content) Travel &amp; Outdoor
+
+.form-group
+  label(for="titie") REMAINING TICKETS
+  .checkbox
+      label
+        input(type='checkbox', value='')
+        |    Show the number of remaining tickets on your event listing
+hr
+.form-group
+  h4 4. TAGS
 .form-group
   label(for="tags") TAGS
   input.form-control(type="text", name="tags", placeholder="tags separated by spaces", value=question.tags ? question.tags.join(" ") : "")
+
+.container
+   blockquote.blockquote.text-center
+      | Nice job! You're almost done.
+   
