@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    //"start": "nodemon ./bin/www"
-    "start": "node app.js"
+    "start": "nodemon ./bin/www"
+    
+  },
+  "engines": {
+    "node": "8.6.0"
   },
   "dependencies": {
     "async-error-catcher": "^1.0.1",
