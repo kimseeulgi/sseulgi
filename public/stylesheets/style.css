@@ -208,6 +208,27 @@ blockquote.blockquote.text-center {
   font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
   color: #666a73; }
 
+@media only screen and (min-device-width: 768px) {
+  h1 {
+    color: black; }
+  .carousel-inner {
+    height: 1000%; }
+  #btn-group {
+    margin-left: 0em; }
+  button.navbar-toggler {
+    color: blue; }
+  .jumbotron {
+    margin-top: 0em;
+    min-height: 0em; } }
+
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    color: black; }
+  .carousel-inner {
+    height: 1000%; }
+  #btn-group {
+    margin-left: 0em; } }
+
 .form-signin {
   width: 350px;
   margin: 0 auto;

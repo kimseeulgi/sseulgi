@@ -280,5 +280,39 @@ a.btn.btn-sm.btn-primary {
 
  }
 
+ 
+ 
+@media only screen and (min-device-width : 768px) {
+  h1{
+    color: black;
+  }
+  .carousel-inner{
+    height:1000%;
+  }
+  #btn-group{
+      margin-left: 0em;
+  }
+  button.navbar-toggler{
 
+    color: blue;
+  }
+  .jumbotron {
+    margin-top: 0em;
+   // background: url('/images/bg.jpg') no-repeat left center;
+    min-height: 0em;}
+ }
+ @media only screen and (min-device-width : 1025px) {
+   h1{
+     color: black;
+   }
+   .carousel-inner{
+     height:1000%;
+   }
+   #btn-group{
+       margin-left: 0em;
+   }
+   
+
+
+  }
 
